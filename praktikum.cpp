@@ -65,3 +65,22 @@ public:
     }
 };
 
+// Friend function
+double aksesKeliling(LayangLayang l) {
+    return l.keliling();
+}
+
+int main() {
+    LayangLayang ll;
+    BelahKetupat bk;
+
+    ll.input();
+    ll.output();
+
+    bk.input();
+    bk.output();
+
+    bk.tampilKelilingLayang(ll);
+
+    return 0;
+}
