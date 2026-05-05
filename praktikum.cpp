@@ -53,3 +53,15 @@ public:
     double keliling() {
         return 4 * sisi;
     }
+
+    void output() {
+        cout << "Luas Belah Ketupat = " << luas() << endl;
+        cout << "Keliling Belah Ketupat = " << keliling() << endl;
+    }
+
+    void tampilKelilingLayang(LayangLayang l) {
+        cout << "Keliling Layang-Layang (akses friend) = "
+             << aksesKeliling(l) << endl;
+    }
+};
+
