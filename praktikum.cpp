@@ -30,3 +30,10 @@ public:
         cout << "Luas Layang-Layang = " << luas() << endl;
         cout << "Keliling Layang-Layang = " << keliling() << endl;
     }
+
+    friend double aksesKeliling(LayangLayang l);
+};
+
+class BelahKetupat {
+private:
+    double d1, d2, sisi;
