@@ -17,3 +17,11 @@ public:
         cout << "Sisi 1: "; cin >> s1;
         cout << "Sisi 2: "; cin >> s2;
     }
+
+    double luas() {
+        return 0.5 * d1 * d2;
+    }
+
+    double keliling() {
+        return 2 * (s1 + s2);
+    }
